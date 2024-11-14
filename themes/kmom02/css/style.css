@@ -342,6 +342,42 @@ pre code {
   line-height: 1.4;
 }
 
+.mobile-nav {
+  display: none;
+}
+@media (max-width: 767px) {
+  .mobile-nav {
+    display: block;
+    background-color: #333;
+    color: #fff;
+  }
+}
+.mobile-nav .nav-toggle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.mobile-nav .nav-links {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+.mobile-nav .nav-links li {
+  padding: 10px;
+  text-align: center;
+}
+.mobile-nav .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.mobile-nav .nav-links a:hover {
+  color: #ddd;
+}
+.mobile-nav.active .nav-links {
+  display: flex;
+}
+
 body {
   background-color: #3d5a80;
 }
