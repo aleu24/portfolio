@@ -2,42 +2,44 @@
 
 // Grundinställningar för mobilnavigation
 .mobile-nav {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-nav {
+    display: block;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .nav-toggle {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .nav-links {
     display: none;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
 
-    @media (max-width: 767px) {
-        display: block;
-        background-color: #333;
-        color: #fff;
-    }
+  .nav-links li {
+    padding: 10px;
+    text-align: center;
+  }
 
-    .nav-toggle {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        list-style-type: none;
-        padding: 0;
+  .nav-links a:hover {
+    color: #ddd;
+  }
 
-        li {
-            padding: 10px;
-            text-align: center;
-        }
-
-        a {
-            color: #fff;
-            text-decoration: none;
-
-            &:hover {
-                color: #ddd;
-            }
-        }
-    }
-
-    &.active .nav-links {
-        display: flex;
-    }
+  .mobile-nav.active .nav-links {
+    display: flex;
+  }
 }
