@@ -3,18 +3,18 @@
     transition: height 0.5s ease-in !important;
 }
 
-.nav ul {
+.nav-list {
     display: flex;
     justify-content: flex-end;
     padding: 1em 0;
     list-style: none;
 }
 
-.nav ul li {
+.nav-item {
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav-link, .nav-toggle {
     color: #333;
 }
 
@@ -27,23 +27,23 @@
         flex-direction: column;
     }
 
-    .nav ul {
+    .nav-list {
         flex-direction: column;
         padding-bottom: 1em;
     }
 
-    .nav ul li {
+    .nav-item {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .nav ul li a {
+    .nav-link {
         display: block;
         padding: 0.5em 0;
     }
 
-    .js .nav-toggle {
+    .nav-toggle--active {
         display: block;
         float: right;
         width: 2em;

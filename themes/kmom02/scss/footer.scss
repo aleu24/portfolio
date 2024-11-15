@@ -1,0 +1,31 @@
+.footer {
+  background-color: $footer-bg-color;
+  color: $text-color;
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 5px solid $accent-color;
+}
+  
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+  
+.footer .social {
+  margin-top: 1rem;
+}
+  
+.footer .social a {
+  color: $text-color;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+  
+.footer .social a:hover {
+  color: $accent-color;
+}
+  
+.main-content {
+  flex: 1;
+}

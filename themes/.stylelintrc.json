@@ -11,5 +11,6 @@
         "shared/fontawesome/**/*.scss",
         "**/*.css",
         "**/*.min.css"
-    ]
+    ],
+    "configBasedir": "./node_modules"
 }

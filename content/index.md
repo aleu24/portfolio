@@ -19,4 +19,4 @@ Min fritid präglas av mina två barn, mitt engagemang inom försvaret och mitt 
 
 Under kursen hoppas jag på att bygga en djupare förståelse för IT och stärka min problemlösningsförmåga. Min förhoppning är att fler pusselbitar ska falla på plats och ge mig värdefulla insikter inför framtida roller. Vi syns och hörs under kursens gång!
 
-![Bild på Alexander](%assets_url%/img/ae.jpg)
+<img src="%assets_url%/img/ae.jpg" alt="Bild på Alexander" class="home-img">
